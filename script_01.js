@@ -9,10 +9,16 @@
 
 // Deklaration + Wertzuweisung
 
-let firstName; //Dekleration (Definition)
-firstName = "Max"; //Wertzuweisung
-console.log(firstName); // Ausgabe
+// let firstName; //Dekleration (Definition)
+// firstName = "Max"; //Wertzuweisung
+// console.log(firstName); // Ausgabe
 
-let familyName = "Mütze" // Dekleration + Wertzuweisung
-console.log(familyName); // Ausgabe
-console.log(firstName + familyName); // Ausgabe
+// let familyName = "Mütze" // Dekleration + Wertzuweisung
+// console.log(familyName); // Ausgabe
+// console.log(firstName + familyName); // Ausgabe
+
+// Dekleration + Wertzuweisung II
+
+let firstName, familyName; // Ausgabe
+firstName = prompt("Bitte Vornamen eingeben")
+console.log(firstName); // Ausgabe

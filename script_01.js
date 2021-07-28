@@ -19,6 +19,20 @@
 
 // Dekleration + Wertzuweisung II
 
-let firstName, familyName; // Ausgabe
-firstName = prompt("Bitte Vornamen eingeben")
-console.log(firstName); // Ausgabe
+// let firstName, familyName;
+// firstName = prompt("Bitte Vornamen eingeben")
+// familyName = prompt("Bitte Namen eingeben")
+// console.log(firstName); // Ausgabe
+// console.log(familyName); // Ausgabe
+// console.log("Hallo " + firstName + " " + familyName +"!"); // Ausgabe
+
+let test; // Dekleration (Definition)
+test = "hi!"; // string
+// test = 2; // number
+// test = true; // boolean
+
+console.log("Datentyp: " + typeof test);
+
+console.log("Inhalt: " + test);
+
+

@@ -32,10 +32,31 @@
 
 // JS ist eine untypisierte Sprache! | untyped
 
-let test; // Deklaration (Definition)
-test = "hi"; // string
-test = 2; // number
-test = true; // boolean
+// let test; // Deklaration (Definition)
+// test = "hi"; // string 
+// test = 2; // number
+// test = true; // boolean
 
-console.log("Datentyp: " + typeof test);
-console.log("Inhalt: " + test);
+// console.log("Datentyp: " + typeof test);
+// console.log("Inhalt: " + test);
+
+/***** Variablen 02 *******/
+
+// Deklaration 
+let ageJohn, ageMark;
+let birthYearJohn, birthYearMark;
+
+// Wertzuweisung | Assignment
+
+let date = new Date();
+console.log("date: " + date.getFullYear());
+let year = date.getFullYear();
+ageJohn = 25; 
+ageMark = 30;
+
+//Operation (Differenz)
+birthYearJohn = year - ageJohn;
+birthYearMark = year - ageMark;
+
+console.log("birthYearJohn: " +  birthYearJohn);
+console.log("birthYearMark: " + birthYearMark);

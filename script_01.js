@@ -42,21 +42,30 @@
 
 /***** Variablen 02 *******/
 
-// Deklaration 
-let ageJohn, ageMark;
-let birthYearJohn, birthYearMark;
+// // Deklaration 
+// let ageJohn, ageMark;
+// let birthYearJohn, birthYearMark;
 
-// Wertzuweisung | Assignment
+// // Wertzuweisung | Assignment
 
-let date = new Date();
-console.log("date: " + date.getFullYear());
-let year = date.getFullYear();
-ageJohn = 25; 
-ageMark = 30;
+// let date = new Date();
+// console.log("date: " + date.getFullYear());
+// let year = date.getFullYear();
+// ageJohn = 25; 
+// ageMark = 30;
 
-//Operation (Differenz)
-birthYearJohn = year - ageJohn;
-birthYearMark = year - ageMark;
+// //Operation (Differenz)
+// birthYearJohn = year - ageJohn;
+// birthYearMark = year - ageMark;
 
-console.log("birthYearJohn: " +  birthYearJohn);
-console.log("birthYearMark: " + birthYearMark);
+// console.log("birthYearJohn: " +  birthYearJohn);
+// console.log("birthYearMark: " + birthYearMark);
+
+/***** Variablen 03 *******/
+
+const ageJohn = 35; // Variable mit KONSTANTEM Inhalt
+const ageMark = 30;
+
+// Operation (Vergleich/Test)
+let isJohnOlder = (ageJohn > ageMark);
+console.log("isJohnOlder: " + isJohnOlder);
